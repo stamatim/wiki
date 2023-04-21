@@ -1,11 +1,7 @@
 ---
 title: Home
-description: The homepage for my wiki
+description: Free information for the world
 date: 2023-04-21
-tags:
-  - myTag
-  - otherTag
-property: value
 dateUpdated: 2023-04-21
 pinned: true
 unlisted: false
@@ -15,9 +11,7 @@ toc: false
 showHeader: true
 showTitle: true
 showDescription: true
-showMeta: true
+showMeta: false
 ---
 
-# Homepage
-
-This is my homepage
+This is my public-facing knowledge base and vault of information I want to share with everyone.

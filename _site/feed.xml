@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wiki.stamos.xyz</id>
-    <title>Stamos Wiki</title>
-    <updated>2023-04-21T14:53:48.202Z</updated>
+    <title>stamos wiki </title>
+    <updated>2023-04-21T17:50:34.674Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Stamati Morellas</name>
@@ -11,21 +11,143 @@
     </author>
     <link rel="alternate" href="https://wiki.stamos.xyz"/>
     <link rel="self" href="https://wiki.stamos.xyz/feed"/>
-    <subtitle>This site contains relevant bits of knowledge and information I want to share with the world.</subtitle>
+    <subtitle>Stam's personal wiki</subtitle>
     <rights>Copyright 2023 https://wiki.stamos.xyz</rights>
     <entry>
         <title type="html"><![CDATA[Home]]></title>
         <id>https://wiki.stamos.xyz/</id>
         <link href="https://wiki.stamos.xyz/"/>
         <updated>2023-04-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The homepage for my wiki]]></summary>
-        <content type="html"><![CDATA[<p>This is my homepage</p>
+        <summary type="html"><![CDATA[Free information for the world]]></summary>
+        <content type="html"><![CDATA[<p>This is my public-facing knowledge base and vault of information I want to share with everyone.</p>
 ]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TIL]]></title>
+        <id>https://wiki.stamos.xyz/til</id>
+        <link href="https://wiki.stamos.xyz/til"/>
+        <updated>2023-04-21T17:50:34.674Z</updated>
+        <summary type="html"><![CDATA[Today I learned...]]></summary>
+        <content type="html"><![CDATA[<p>A collection of byte-sized knowledge I frequently reference.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Radar]]></title>
+        <id>https://wiki.stamos.xyz/radar</id>
+        <link href="https://wiki.stamos.xyz/radar"/>
+        <updated>2023-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An opinionated collection of tools, services, and tech I'm keeping an eye on]]></summary>
+        <content type="html"><![CDATA[<p>The software engineering ecosystem is a never-ending cycle of change. In my eyes, one of the most important qualities a software engineer can have is <em><strong>the desire to always be learning new things</strong></em>.</p>
+<p>Keeping up with an ever-changing industry can be difficult. New approaches, new frameworks, and new techniques are being created each and every day, so it’s important to not fall behind. This can help you stay relevant as a developer.</p>
+<p>For this reason alone, I decided to create a <em><strong>Technology Radar</strong></em> for myself so that I can help myself navigate this constant change.</p>
+<p>A technology radar is a tool used to inspire and support engineering teams for picking the best technologies for new projects. This is an idea originating from <a href="https://www.thoughtworks.com/radar" rel="external noopener noreferrer" title="">Thoughtworks</a> for mapping out the broader software engineering landscape. </p>
+<p>It is important to know that this is a <strong>highly-opinionated</strong> technology radar. This is a tool I use to help myself develop a strategy for taking on software projects by knowing which (vetted) technologies to reach for based on a specific use case. Feel free to use at your own risk.</p>
+<p>To understand how this works, we need to define a few things first.</p>
+<h2 id="definitions"><a class="h-anchor" href="#definitions">#</a>Definitions</h2><ul>
+<li>A <em><strong>blip</strong></em> is <em>anything</em> that is determined to play a role in software engineering.</li>
+<li>A <em><strong>quadrant</strong></em> is a categorization of the type of <em><strong>blips</strong></em>. This technology radar will use the following <em><strong>cagegories</strong></em>.<ul>
+<li><em><strong>Programming Languages &amp; Frameworks</strong></em> – As the name implies, this quadrant contains <em>blips</em> that we consider to be programming <em>languages</em>, <em>frameworks</em>, and <em>libraries</em>.</li>
+<li><em><strong>Tools</strong></em> – These can be <em>software</em> tools such as <em>databases</em>, <em>version control systems</em>, <em>self-hosted tools</em> – SaaS <em>platforms</em>, <em>package managers</em>, <em>productivity software</em>, <em>online services</em>, etc. Can also include <em>packages</em> and <em>libraries</em></li>
+<li><em><strong>Platforms</strong></em> – These are things that we build software on top of such as <em>mobile technologies</em> (e.g. Android/iOS), <em>operating systems</em> (e.g. macOS, Windows, Linux), <em>virtual platforms</em> (e.g. JVM), <em>hybrid clouds</em>, etc. This includes <em>engines</em> and <em>runtimes</em>.</li>
+<li><em><strong>Techniques</strong></em> – These include elements of the software development process such as <em>software architecture &amp; design</em> (e.g. Microservices), <em>software modeling</em> (e.g. C4 Model), <em>productivity systems</em>, <em>experience design</em>, <em>testing techniques</em> (e.g. BDD, TDD, Page-Object Model), <em>infrastructure techniques</em> (e.g. IaaS), etc.</li>
+</ul>
+</li>
+<li>A <em><strong>ring</strong></em> is a way to identify the state of research that a <em>blip</em> has undergone.<ul>
+<li>The <em><strong>Adopt</strong></em> ring represents blips that we think every engineering team should consider. Something that is proven to work and mature enough for use.</li>
+<li>The <em><strong>Trial</strong></em> ring represents blips that are ready to use, but not as proven as blips in the <em>Adopt</em> ring. These are things that should be used on a trial basis and things you should be mindful of if you decide to ship to production.</li>
+<li>The <em><strong>Assess</strong></em> ring are things to look at closely and study. Not necessarily ready for <em>Trial</em> yet, unless you think they would be a particularly good fit for you. Things that are worth keeping an eye on.</li>
+<li>The <em><strong>Hold</strong></em> ring is for things that, even though they are accepted in the industry, we haven’t had a good experience with. They can either be things that are flawed or things that are misused. Blips that fall into this ring are things that we wish the industry would <em>not</em> use.</li>
+</ul>
+</li>
+</ul>
+<p><em><strong>Do not make too big of a deal of the quadrants</strong></em>. They are just a way to break up the radar into topic areas. It is <em>less</em> important which quadrant a <em>blip</em> falls into and <em>more</em> important which <em>ring</em> it falls into.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Example]]></title>
+        <id>https://wiki.stamos.xyz/til/first</id>
+        <link href="https://wiki.stamos.xyz/til/first"/>
+        <updated>2023-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An example of a TIL entry]]></summary>
+        <content type="html"><![CDATA[<p>Here is my first entry. Testing this out. I can add code too:</p>
+<pre class="hljs language-ts"><span class="hljs-keyword">const</span> message = <span class="hljs-string">&quot;Hello, World!&quot;</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(message);</pre>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Markdown Showcase]]></title>
+        <id>https://wiki.stamos.xyz/md</id>
+        <link href="https://wiki.stamos.xyz/md"/>
+        <updated>2023-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Examples of markdown in Ter]]></summary>
+        <content type="html"><![CDATA[<h2 id="heading-2"><a class="h-anchor" href="#heading-2">#</a>Heading 2</h2><h3 id="heading-3"><a class="h-anchor" href="#heading-3">#</a>Heading 3</h3><h4 id="heading-4"><a class="h-anchor" href="#heading-4">#</a>Heading 4</h4><h5 id="heading-5"><a class="h-anchor" href="#heading-5">#</a>Heading 5</h5><p><em>italic text</em></p>
+<p><strong>bold text</strong></p>
+<p><em><strong>italic and bold text</strong></em></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Now]]></title>
+        <id>https://wiki.stamos.xyz/now</id>
+        <link href="https://wiki.stamos.xyz/now"/>
+        <updated>2023-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Things I'm currently doing]]></summary>
+        <content type="html"><![CDATA[<p>I strive to be a well-rounded human. These are some of the things I am currently doing to achieve that goal.</p>
+<h2 id="increasing-software-quality"><a class="h-anchor" href="#increasing-software-quality">#</a>Increasing software quality</h2><p>Most of my focus gets dedicated to my day job, where I work as a Senior Quality Assurance Engineer at <a href="https://municipalparkingservices.com" rel="external noopener noreferrer" title="">MPS</a>. My responsibilities include, but are not limited to:</p>
+<ul>
+<li>Onboarding and assisting engineers with navigating domain knowledge</li>
+<li>Designing, building, and maintaining our automation testing tooling</li>
+<li>Building internal tools/services to aid in testing efforts</li>
+<li>Thinking of ways to improve team/company processes</li>
+<li>Providing valuable feedback on products/services</li>
+</ul>
+<h2 id="tinkering-with-new-tech"><a class="h-anchor" href="#tinkering-with-new-tech">#</a>Tinkering with new tech</h2><p>I am always looking for ways to sharpen my existing skills and acquire new ones. I’ve really been loving working with technologies like <a href="https://nextjs.org?ref=wiki.stamos.xyz" rel="external noopener noreferrer" title="">Next.js</a>, <a href="https://typescriptlang.org?ref=wiki.stamos.xyz" rel="external noopener noreferrer" title="">TypeScript</a> and <a href="https://tailwindcss.com?ref=wiki.stamos.xyz" rel="external noopener noreferrer" title="">Tailwind</a> for building full-stack web applications and <a href="https://sst.dev?ref=wiki.stamos.xyz" rel="external noopener noreferrer" title="">SST</a> for managing the infrastructure around that.</p>
+<p>For backend, my go-to right now is <a href="https://nestjs.com?ref=wiki.stamos.xyz" rel="external noopener noreferrer" title="">NestJS</a>. I’ve been eager to start tinkering with <a href="https://go.dev?ref=wiki.stamos.xyz" rel="external noopener noreferrer" title="">Golang</a>.</p>
+<p>For more information on my tech of choice, see my <a href="/radar" title="">radar</a>.</p>
+<h2 id="working-out"><a class="h-anchor" href="#working-out">#</a>Working out</h2><p>Fitness has become a huge part of my life recently, <em>and it will continue to be</em>. As passionate as I am about technology, music, and any of my personal interests, <strong>none of it matters unless I am healthy</strong>. Not only does this improve physical health/appearance, it also bleeds into mental and psychological health. Ever since I have prioritized going to the gym as a critical part of my daily routine, and it’s made loads of difference in the way I think, feel, carry myself, and interact with others on a day-to-day basis. </p>
+<p><em><strong>I encourage everyone to take a little time out of their day to invest in their physical and mental well-being, whatever that looks like for you.</strong></em></p>
+<h2 id="reading"><a class="h-anchor" href="#reading">#</a>Reading</h2><p>I enjoy reading books to help me relax. Most of the things I read about revolve around engineering/computer science, finance, and psychology.</p>
+<h2 id="mixing"><a class="h-anchor" href="#mixing">#</a>Mixing</h2><p>I’ve been a big fan of house, dubstep, and electronic music in general for a while now. One of the things I enjoy doing in my free time is live mixing, also known as DJ-ing. I love learning and experimenting with new techniques and methods for meshing sounds together.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Languages & Frameworks]]></title>
+        <id>https://wiki.stamos.xyz/radar/languages-frameworks</id>
+        <link href="https://wiki.stamos.xyz/radar/languages-frameworks"/>
+        <updated>2023-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The primitives we need to solve problems using software]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Platforms]]></title>
+        <id>https://wiki.stamos.xyz/radar/platforms</id>
+        <link href="https://wiki.stamos.xyz/radar/platforms"/>
+        <updated>2023-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The things we build software on top of]]></summary>
+        <content type="html"><![CDATA[<h2 id="mobile-platforms"><a class="h-anchor" href="#mobile-platforms">#</a>Mobile Platforms</h2><h2 id="web-platforms"><a class="h-anchor" href="#web-platforms">#</a>Web Platforms</h2>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Techniques]]></title>
+        <id>https://wiki.stamos.xyz/radar/techniques</id>
+        <link href="https://wiki.stamos.xyz/radar/techniques"/>
+        <updated>2023-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The ways and methods in which we build software]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tools]]></title>
+        <id>https://wiki.stamos.xyz/radar/tools</id>
+        <link href="https://wiki.stamos.xyz/radar/tools"/>
+        <updated>2023-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The things we use to help us build software and get things done]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[About]]></title>
+        <id>https://wiki.stamos.xyz/about</id>
+        <link href="https://wiki.stamos.xyz/about"/>
+        <updated>2023-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[What's going on here?]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Tags]]></title>
         <id>https://wiki.stamos.xyz/tags</id>
         <link href="https://wiki.stamos.xyz/tags"/>
-        <updated>2023-04-21T14:53:48.202Z</updated>
+        <updated>2023-04-21T17:50:34.674Z</updated>
     </entry>
 </feed>
