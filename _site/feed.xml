@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wiki.stamos.xyz</id>
     <title>stamos wiki </title>
-    <updated>2023-04-21T17:50:34.674Z</updated>
+    <updated>2023-04-21T19:27:11.418Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Stamati Morellas</name>
@@ -26,7 +26,7 @@
         <title type="html"><![CDATA[TIL]]></title>
         <id>https://wiki.stamos.xyz/til</id>
         <link href="https://wiki.stamos.xyz/til"/>
-        <updated>2023-04-21T17:50:34.674Z</updated>
+        <updated>2023-04-21T19:27:11.418Z</updated>
         <summary type="html"><![CDATA[Today I learned...]]></summary>
         <content type="html"><![CDATA[<p>A collection of byte-sized knowledge I frequently reference.</p>
 ]]></content>
@@ -62,6 +62,33 @@
 </ul>
 <p><em><strong>Do not make too big of a deal of the quadrants</strong></em>. They are just a way to break up the radar into topic areas. It is <em>less</em> important which quadrant a <em>blip</em> falls into and <em>more</em> important which <em>ring</em> it falls into.</p>
 ]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tailwind center text layout]]></title>
+        <id>https://wiki.stamos.xyz/til/tailwind-center-layout</id>
+        <link href="https://wiki.stamos.xyz/til/tailwind-center-layout"/>
+        <updated>2023-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How to center text in the middle of the screen using Tailwind CSS]]></summary>
+        <content type="html"><![CDATA[<p>The following code snippets can be used to achieve a result similar to the screenshot below:</p>
+<p><img src="/img/tailwind-center-layout-example.png" alt="img" title=""/></p>
+<p>To preview this, visit <a href="https://stamos.xyz" rel="external noopener noreferrer" title="">stamos.xyz</a></p>
+<h2 id="html"><a class="h-anchor" href="#html">#</a>HTML</h2><pre class="hljs language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">&quot;flex min-h-screen items-center justify-center bg-white dark:bg-black&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">&quot;mx-auto max-w-2xl text-center&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">className</span>=<span class="hljs-string">&quot;text-black dark:text-white&quot;</span>&gt;</span>
+            This text will be in the center of the screen
+        <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></pre><h2 id="react"><a class="h-anchor" href="#react">#</a>React</h2><pre class="hljs language-ts"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">Layout</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> (
+        <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">&quot;flex min-h-screen items-center justify-center bg-white dark:bg-black&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">&quot;mx-auto max-w-2xl text-center&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">className</span>=<span class="hljs-string">&quot;text-black dark:text-white&quot;</span>&gt;</span>
+                    This text will be in the center of the screen
+                <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+    )
+}</pre>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Example]]></title>
@@ -148,6 +175,6 @@
         <title type="html"><![CDATA[Tags]]></title>
         <id>https://wiki.stamos.xyz/tags</id>
         <link href="https://wiki.stamos.xyz/tags"/>
-        <updated>2023-04-21T17:50:34.674Z</updated>
+        <updated>2023-04-21T19:27:11.418Z</updated>
     </entry>
 </feed>
