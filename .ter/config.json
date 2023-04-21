@@ -1,0 +1,12 @@
+{
+  "title": "Stamos Wiki",
+  "description": "This site contains relevant bits of knowledge and information I want to share with the world.",
+  "url": "https://wiki.stamos.xyz",
+  "rootCrumb": "index",
+  "authorName": "Stamati Morellas",
+  "authorEmail": "x@stamos.xyz",
+  "authorUrl": "https://blog.stamos.xyz",
+  "lang": "en",
+  "codeHighlight": true,
+  "head": ""
+}

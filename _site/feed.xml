@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://wiki.stamos.xyz</id>
+    <title>Stamos Wiki</title>
+    <updated>2023-04-21T14:53:48.202Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Stamati Morellas</name>
+        <email>x@stamos.xyz</email>
+        <uri>https://blog.stamos.xyz</uri>
+    </author>
+    <link rel="alternate" href="https://wiki.stamos.xyz"/>
+    <link rel="self" href="https://wiki.stamos.xyz/feed"/>
+    <subtitle>This site contains relevant bits of knowledge and information I want to share with the world.</subtitle>
+    <rights>Copyright 2023 https://wiki.stamos.xyz</rights>
+    <entry>
+        <title type="html"><![CDATA[Home]]></title>
+        <id>https://wiki.stamos.xyz/</id>
+        <link href="https://wiki.stamos.xyz/"/>
+        <updated>2023-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The homepage for my wiki]]></summary>
+        <content type="html"><![CDATA[<p>This is my homepage</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tags]]></title>
+        <id>https://wiki.stamos.xyz/tags</id>
+        <link href="https://wiki.stamos.xyz/tags"/>
+        <updated>2023-04-21T14:53:48.202Z</updated>
+    </entry>
+</feed>
